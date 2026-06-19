@@ -1,0 +1,15 @@
+{
+  "name": "Suprajit Maity",
+  "title": "Full-Stack Software Engineer",
+  "bio": "Hi, I am Suprajit, a passionate full-stack developer from Kolkata, India. I specialize in building secure, scalable, and responsive web applications using Node.js, modern frontend interfaces, and robust database architectures. I love crafting clean code and designing interactive visual experiences that solve real-world problems.",
+  "avatar": "images/profile.jpg",
+  "socialLinks": {
+    "github": "https://github.com/Supra-codes",
+    "linkedin": "https://in.linkedin.com/in/suprajit-maity-314bbb348",
+    "leetcode": "https://leetcode.com/u/Suprajit-/",
+    "twitter": "",
+    "email": "suprajitmaity@gmail.com"
+  },
+  "resumeUrl": "#",
+  "updatedAt": "2026-06-19T04:30:50.092Z"
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "_id": "local_9un9po8bj",
+    "name": "HTML5 & CSS3",
+    "category": "Frontend",
+    "level": 95,
+    "icon": "fab fa-html5",
+    "createdAt": "2026-06-19T04:30:50.093Z",
+    "updatedAt": "2026-06-19T04:30:50.093Z"
+  },
+  {
+    "_id": "local_iqtsrlgl4",
+    "name": "JavaScript (ES6+)",
+    "category": "Frontend",
+    "level": 90,
+    "icon": "fab fa-js",
+    "createdAt": "2026-06-19T04:30:50.094Z",
+    "updatedAt": "2026-06-19T04:30:50.094Z"
+  },
+  {
+    "_id": "local_y9a7kar7o",
+    "name": "React.js",
+    "category": "Frontend",
+    "level": 85,
+    "icon": "fab fa-react",
+    "createdAt": "2026-06-19T04:30:50.095Z",
+    "updatedAt": "2026-06-19T04:30:50.095Z"
+  },
+  {
+    "_id": "local_9ogpsrwuo",
+    "name": "Vue.js",
+    "category": "Frontend",
+    "level": 70,
+    "icon": "fab fa-vuejs",
+    "createdAt": "2026-06-19T04:30:50.095Z",
+    "updatedAt": "2026-06-19T04:30:50.095Z"
+  },
+  {
+    "_id": "local_etfa3fcxt",
+    "name": "Node.js & Express.js",
+    "category": "Backend",
+    "level": 90,
+    "icon": "fab fa-node-js",
+    "createdAt": "2026-06-19T04:30:50.216Z",
+    "updatedAt": "2026-06-19T04:30:50.216Z"
+  },
+  {
+    "_id": "local_9s50evfrx",
+    "name": "RESTful APIs",
+    "category": "Backend",
+    "level": 95,
+    "icon": "fas fa-project-diagram",
+    "createdAt": "2026-06-19T04:30:50.216Z",
+    "updatedAt": "2026-06-19T04:30:50.216Z"
+  },
+  {
+    "_id": "local_vuj5h9vl8",
+    "name": "GraphQL",
+    "category": "Backend",
+    "level": 75,
+    "icon": "fas fa-network-wired",
+    "createdAt": "2026-06-19T04:30:50.217Z",
+    "updatedAt": "2026-06-19T04:30:50.217Z"
+  },
+  {
+    "_id": "local_zwyntv9hi",
+    "name": "Python & Django",
+    "category": "Backend",
+    "level": 70,
+    "icon": "fab fa-python",
+    "createdAt": "2026-06-19T04:30:50.217Z",
+    "updatedAt": "2026-06-19T04:30:50.217Z"
+  },
+  {
+    "_id": "local_o50o0fasu",
+    "name": "MongoDB / Mongoose",
+    "category": "Database",
+    "level": 85,
+    "icon": "fas fa-database",
+    "createdAt": "2026-06-19T04:30:50.217Z",
+    "updatedAt": "2026-06-19T04:30:50.217Z"
+  },
+  {
+    "_id": "local_untztdcm9",
+    "name": "PostgreSQL",
+    "category": "Database",
+    "level": 80,
+    "icon": "fas fa-database",
+    "createdAt": "2026-06-19T04:30:50.218Z",
+    "updatedAt": "2026-06-19T04:30:50.218Z"
+  },
+  {
+    "_id": "local_kym8mhtzc",
+    "name": "Redis (Caching)",
+    "category": "Database",
+    "level": 75,
+    "icon": "fas fa-bolt",
+    "createdAt": "2026-06-19T04:30:50.218Z",
+    "updatedAt": "2026-06-19T04:30:50.218Z"
+  },
+  {
+    "_id": "local_jy1cxf63b",
+    "name": "Git & GitHub",
+    "category": "Tools",
+    "level": 90,
+    "icon": "fab fa-github",
+    "createdAt": "2026-06-19T04:30:50.218Z",
+    "updatedAt": "2026-06-19T04:30:50.218Z"
+  },
+  {
+    "_id": "local_18l5zki0j",
+    "name": "Docker",
+    "category": "Tools",
+    "level": 75,
+    "icon": "fab fa-docker",
+    "createdAt": "2026-06-19T04:30:50.219Z",
+    "updatedAt": "2026-06-19T04:30:50.219Z"
+  },
+  {
+    "_id": "local_q7deeisms",
+    "name": "AWS (S3, EC2)",
+    "category": "Tools",
+    "level": 70,
+    "icon": "fab fa-aws",
+    "createdAt": "2026-06-19T04:30:50.220Z",
+    "updatedAt": "2026-06-19T04:30:50.220Z"
+  },
+  {
+    "_id": "local_ded79wd85",
+    "name": "CI/CD Pipelines",
+    "category": "Tools",
+    "level": 80,
+    "icon": "fas fa-tasks",
+    "createdAt": "2026-06-19T04:30:50.220Z",
+    "updatedAt": "2026-06-19T04:30:50.220Z"
+  }
+]

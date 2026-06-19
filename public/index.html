@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suprajit Maity | Full-Stack Software Engineer</title>
+  <meta name="description" content="Personal portfolio of Suprajit Maity, a passionate Full-Stack Software Engineer specializing in Node.js, Express, MongoDB, and interactive responsive web design.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Background Animated Blobs -->
+  <div class="blob-container">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Scroll Progress Indicator -->
+  <div id="scroll-progress"></div>
+
+  <!-- Navigation Header -->
+  <header class="header">
+    <div class="nav-container container">
+      <a href="#" class="logo" id="logo-brand">
+        <span class="logo-bracket">&lt;</span>Suprajit<span class="logo-accent">.M</span><span class="logo-bracket">/&gt;</span>
+      </a>
+      
+      <nav class="nav-links-wrapper" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#" class="nav-link active" data-sec="hero">Home</a></li>
+          <li><a href="#about" class="nav-link" data-sec="about">About</a></li>
+          <li><a href="#skills" class="nav-link" data-sec="skills">Skills</a></li>
+          <li><a href="#projects" class="nav-link" data-sec="projects">Projects</a></li>
+          <li><a href="#contact" class="nav-link" data-sec="contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Light/Dark Mode Toggle -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark/light theme">
+          <i class="fas fa-moon moon-icon"></i>
+          <i class="fas fa-sun sun-icon"></i>
+        </button>
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-menu-btn" id="mobile-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span class="bar bar-1"></span>
+          <span class="bar bar-2"></span>
+          <span class="bar bar-3"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section container" id="home">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-tag">Available for Freelance & Full-time</div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text" id="profile-name-title">Suprajit Maity</span>
+          </h1>
+          <h2 class="hero-subtitle">
+            <span id="typed-text">Full-Stack Software Engineer</span><span class="typed-cursor">|</span>
+          </h2>
+          <p class="hero-description" id="profile-bio-hero">
+            Crafting elegant, modern, and high-performance web applications. Specializing in Node.js, Express, MongoDB, and creating interactive user experiences.
+          </p>
+          <div class="hero-ctas">
+            <a href="#projects" class="btn btn-primary">View Projects <i class="fas fa-arrow-right"></i></a>
+            <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+          </div>
+        </div>
+        
+        <div class="hero-avatar-area">
+          <div class="avatar-glow-ring"></div>
+          <div class="avatar-frame">
+            <img src="" alt="Suprajit Maity" id="profile-avatar" class="avatar-img">
+          </div>
+          <!-- Floating micro indicators -->
+          <div class="floating-badge badge-js">
+            <i class="fab fa-js-square"></i> JS
+          </div>
+          <div class="floating-badge badge-node">
+            <i class="fab fa-node-js"></i> Node
+          </div>
+          <div class="floating-badge badge-mongo">
+            <i class="fas fa-database"></i> DB
+          </div>
+        </div>
+      </div>
+      
+      <div class="hero-scroll-indicator">
+        <a href="#about" aria-label="Scroll down">
+          <div class="mouse">
+            <div class="wheel"></div>
+          </div>
+          <span class="scroll-text">Scroll Down</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section scroll-reveal" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tagline">Get To Know Me</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-underline"></div>
+        </div>
+        
+        <div class="about-grid">
+          <div class="about-stats-card glass">
+            <div class="stat-item">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-line"></div>
+            <div class="stat-item">
+              <span class="stat-number">20+</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat-line"></div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Client Satisfaction</span>
+            </div>
+          </div>
+          
+          <div class="about-text glass">
+            <h3>Who is Suprajit Maity?</h3>
+            <p id="profile-bio-full">
+              Loading biography details...
+            </p>
+            <div class="social-links-wrapper">
+              <a href="#" class="social-btn github" id="social-github" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" class="social-btn linkedin" id="social-linkedin" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-btn leetcode" id="social-leetcode" target="_blank" aria-label="LeetCode"><i class="fas fa-code"></i></a>
+              <a href="#" class="social-btn twitter" id="social-twitter" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-btn email" id="social-email" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="about-resume-cta">
+              <a href="#" class="btn btn-secondary" id="profile-resume" target="_blank">
+                <i class="fas fa-download"></i> Download Resume
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section scroll-reveal" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tagline">My Capabilities</span>
+          <h2 class="section-title">Technical Expertise</h2>
+          <div class="section-underline"></div>
+        </div>
+        
+        <!-- Filter Tabs for Skills -->
+        <div class="filter-tabs" id="skills-tabs">
+          <button class="tab-btn active" data-filter="all">All</button>
+          <button class="tab-btn" data-filter="Frontend">Frontend</button>
+          <button class="tab-btn" data-filter="Backend">Backend</button>
+          <button class="tab-btn" data-filter="Database">Database</button>
+          <button class="tab-btn" data-filter="Tools">Tools</button>
+        </div>
+
+        <div class="skills-grid" id="skills-container">
+          <!-- Dynamically populated skills cards -->
+          <div class="loading-state">
+            <i class="fas fa-spinner fa-spin"></i> Loading technical skills...
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section scroll-reveal" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tagline">My Portfolios</span>
+          <h2 class="section-title">Recent Work</h2>
+          <div class="section-underline"></div>
+        </div>
+        
+        <!-- Filter Tabs & Search for Projects -->
+        <div class="projects-toolbar">
+          <div class="filter-tabs" id="projects-tabs">
+            <button class="tab-btn active" data-filter="all">All Projects</button>
+            <button class="tab-btn" data-filter="featured">Featured</button>
+          </div>
+          <div class="search-box glass">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="project-search" placeholder="Search by technology (e.g. React)..." aria-label="Search projects">
+          </div>
+        </div>
+
+        <div class="projects-grid" id="projects-container">
+          <!-- Dynamically populated projects cards -->
+          <div class="loading-state">
+            <i class="fas fa-spinner fa-spin"></i> Fetching engineering portfolio...
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section scroll-reveal" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tagline">Get In Touch</span>
+          <h2 class="section-title">Contact Me</h2>
+          <div class="section-underline"></div>
+        </div>
+        
+        <div class="contact-grid">
+          <div class="contact-info-card glass">
+            <h3>Let's collaborate!</h3>
+            <p>I am open to discuss web application projects, custom integrations, API engineering, or technical roles.</p>
+            
+            <div class="contact-details">
+              <div class="contact-detail-item">
+                <div class="icon-wrap"><i class="fas fa-envelope"></i></div>
+                <div>
+                  <span class="detail-label">Email</span>
+                  <span class="detail-value" id="contact-detail-email">suprajitmaity@gmail.com</span>
+                </div>
+              </div>
+              
+              <div class="contact-detail-item">
+                <div class="icon-wrap"><i class="fas fa-map-marker-alt"></i></div>
+                <div>
+                  <span class="detail-label">Location</span>
+                  <span class="detail-value">Kolkata, India</span>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="icon-wrap"><i class="fas fa-clock"></i></div>
+                <div>
+                  <span class="detail-label">Average Response</span>
+                  <span class="detail-value">&lt; 24 Hours</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="social-sphere">
+              <div class="sphere-grid">
+                <span class="sphere-circle circle-1"></span>
+                <span class="sphere-circle circle-2"></span>
+                <span class="sphere-circle circle-3"></span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-form-wrapper glass">
+            <form id="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="form-name">Name *</label>
+                  <div class="input-container">
+                    <i class="fas fa-user input-icon"></i>
+                    <input type="text" id="form-name" name="name" placeholder="John Doe" required>
+                  </div>
+                  <span class="error-msg" id="name-error"></span>
+                </div>
+                
+                <div class="form-group">
+                  <label for="form-email">Email *</label>
+                  <div class="input-container">
+                    <i class="fas fa-envelope input-icon"></i>
+                    <input type="email" id="form-email" name="email" placeholder="john@example.com" required>
+                  </div>
+                  <span class="error-msg" id="email-error"></span>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="form-subject">Subject</label>
+                <div class="input-container">
+                  <i class="fas fa-bookmark input-icon"></i>
+                  <input type="text" id="form-subject" name="subject" placeholder="Project Discussion">
+                </div>
+                <span class="error-msg" id="subject-error"></span>
+              </div>
+              
+              <div class="form-group">
+                <label for="form-message">Message *</label>
+                <div class="input-container">
+                  <i class="fas fa-comment-alt input-icon textarea-icon"></i>
+                  <textarea id="form-message" name="message" rows="5" placeholder="Tell me about your project or inquiry..." required></textarea>
+                </div>
+                <span class="error-msg" id="message-error"></span>
+              </div>
+              
+              <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">
+                <span class="btn-text">Send Message</span>
+                <i class="fas fa-paper-plane send-icon"></i>
+                <i class="fas fa-circle-notch spinner-icon fa-spin"></i>
+              </button>
+            </form>
+            
+            <!-- Success/Error Form States Overlay -->
+            <div class="form-status-overlay" id="form-status">
+              <div class="status-content">
+                <div class="status-icon-wrap" id="status-icon">
+                  <i class="fas fa-check"></i>
+                </div>
+                <h4 id="status-title">Message Sent!</h4>
+                <p id="status-desc">Thank you. I've received your submission and will write back soon.</p>
+                <div id="email-test-link-wrap" style="display: none; margin-top: 15px;">
+                  <span style="font-size: 12px; color: var(--text-muted); display: block; margin-bottom: 5px;">Dev Transporter Link:</span>
+                  <a href="" id="email-test-link" class="test-email-btn" target="_blank">
+                    <i class="fas fa-external-link-alt"></i> View Sent Email (Ethereal)
+                  </a>
+                </div>
+                <button class="btn btn-secondary btn-sm" id="status-reset-btn" style="margin-top: 15px;">Dismiss</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p class="copyright">&copy; 2026 Suprajit Maity. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#" class="footer-link">Privacy Policy</a>
+        <a href="#" class="footer-link">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/app.js"></script>
+</body>
+</html>

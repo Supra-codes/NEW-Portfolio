@@ -1,0 +1,11 @@
+[
+  {
+    "_id": "local_jxr29yiim",
+    "name": "Test User",
+    "email": "test@example.com",
+    "subject": "Test Subject",
+    "message": "Hello Alex, I would love to talk about a full-stack project!",
+    "status": "unread",
+    "createdAt": "2026-06-19T03:48:33.830Z"
+  }
+]

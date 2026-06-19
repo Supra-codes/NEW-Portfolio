@@ -1,0 +1,70 @@
+[
+  {
+    "_id": "local_n2j1nps2n",
+    "title": "Fullstack Weather Application",
+    "description": "A real-time weather monitoring application providing accurate forecasts, interactive weather maps, and location-based weather alerts. Integration with OpenWeatherMap API.",
+    "tags": [
+      "React",
+      "Node.js",
+      "Express",
+      "OpenWeatherMap API"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80&w=800",
+    "githubLink": "https://github.com/Supra-codes",
+    "liveLink": "#",
+    "featured": true,
+    "createdAt": "2026-06-19T04:30:50.221Z",
+    "updatedAt": "2026-06-19T04:30:50.221Z"
+  },
+  {
+    "_id": "local_inoybzfab",
+    "title": "To Do List",
+    "description": "A sleek and responsive task management application to plan, organize, and prioritize daily tasks. Features drag-and-drop ordering, task categorization, and local storage persistence.",
+    "tags": [
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "LocalStorage"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=800",
+    "githubLink": "https://github.com/Supra-codes",
+    "liveLink": "#",
+    "featured": true,
+    "createdAt": "2026-06-19T04:30:50.221Z",
+    "updatedAt": "2026-06-19T04:30:50.222Z"
+  },
+  {
+    "_id": "local_q8ca39i66",
+    "title": "Sticky Notes",
+    "description": "An interactive digital dashboard for pinning, coloring, and managing virtual sticky notes. Ideal for quick brainstorm sessions and thought organization.",
+    "tags": [
+      "React",
+      "CSS Grid",
+      "Context API",
+      "Web APIs"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&q=80&w=800",
+    "githubLink": "https://github.com/Supra-codes",
+    "liveLink": "#",
+    "featured": false,
+    "createdAt": "2026-06-19T04:30:50.222Z",
+    "updatedAt": "2026-06-19T04:30:50.222Z"
+  },
+  {
+    "_id": "local_jymy6yjr9",
+    "title": "Habit Tracker",
+    "description": "A personal routine and habit tracker with visual progress charts, streak counters, and daily checklists to build positive habits and maintain consistency.",
+    "tags": [
+      "React",
+      "Chart.js",
+      "Node.js",
+      "MongoDB"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80&w=800",
+    "githubLink": "https://github.com/Supra-codes",
+    "liveLink": "#",
+    "featured": false,
+    "createdAt": "2026-06-19T04:30:50.222Z",
+    "updatedAt": "2026-06-19T04:30:50.222Z"
+  }
+]
